@@ -3,11 +3,16 @@ body {
   background-image: asset-data-url("subtle7.png");
   color:#454545;
 }
+
 body, textarea {
-  font-family:Helvetica
+  font-family: Arial, Helvetica, sans-serif
 }
 
 textarea {
   height:100px;
   width:300px;
+}
+
+th, td {
+  text-align:left;
 }
